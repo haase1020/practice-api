@@ -1,0 +1,14 @@
+GET http://localhost:3000/subscribers
+
+
+####
+GET http://localhost:3000/subscribers/600e05b4bc7db410976639a2
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Maki",
+    "subscribedToChannel": "Bilingual Avocado"
+}
